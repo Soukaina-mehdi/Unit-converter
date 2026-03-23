@@ -4,20 +4,18 @@
     "slug": "unit-converter",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0a0f1e"
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0f1e"
       },
       "package": "com.yourname.unitconverter"
     },
-    "platforms": ["android"]
+    "platforms": ["android"],
+    "extra": {
+      "eas": {
+        "projectId": "ff7f8875-7230-41e2-9ddf-bd7fca9825e3"
+      }
+    }
   }
 }
